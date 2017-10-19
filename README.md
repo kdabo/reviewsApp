@@ -22,11 +22,11 @@ In the view, it renders a list of reviews for a hotel with belonging metadata an
 - pagination
 
 
-##Setup
+## Setup
 
 - `yarn`
 - `yarn start`
 
-##Demo
+## Demo
 
 [Reviews App Demo](https://www.youtube.com/watch?v=RrnbkFqlfSw)
