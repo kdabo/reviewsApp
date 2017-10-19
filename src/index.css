@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav, .pagination li.active, nav ul li.active{
+  background-color: #fff;
+  box-shadow: none;
+}
+
+@media (min-width: 993px) {
+  .container {
+    width: 90%;
+  }
+}

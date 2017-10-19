@@ -1,0 +1,33 @@
+{
+  "name": "reviewsApp",
+  "version": "1.0.0",
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1",
+    "react-scripts": "1.0.7",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "es-symbol": "1.1.2",
+    "es6-shim": "0.35.3",
+    "history": "4.6.1",
+    "materialize-css": "^0.100.2",
+    "moment": "^2.19.1",
+    "prop-types": "^15.6.0",
+    "react": "15.5.4",
+    "react-dom": "15.5.4",
+    "react-redux": "4.4.5",
+    "react-router-dom": "4.1.1",
+    "react-select": "^1.0.0-rc.10",
+    "redux": "3.6.0",
+    "redux-thunk": "2.1.0",
+    "sematable": "^1.8.0",
+    "whatwg-fetch": "2.0.3"
+  },
+  "scripts": {
+    "start": "concurrently \"PORT=3005 react-scripts start\" \"node_modules/.bin/nodemon server.js\"",
+    "test": "mocha --recursive ",
+    "test-watch": "npm test -- --watch"
+  }
+}
