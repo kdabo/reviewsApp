@@ -26,3 +26,7 @@ In the view, it renders a list of reviews for a hotel with belonging metadata an
 
 - `yarn`
 - `yarn start`
+
+##Demo
+
+[Reviews App Demo](https://www.youtube.com/watch?v=RrnbkFqlfSw)
